@@ -17,10 +17,10 @@ export default function Projects(props: { [x: string]: any }) {
 	return (
 		<Card mb={{ base: '0px', '2xl': '20px' }} {...rest}>
 			<Text color={textColorPrimary} fontWeight='bold' fontSize='2xl' mt='10px' mb='4px'>
-				All projects
+				All Social Media Handles
 			</Text>
 			<Text color={textColorSecondary} fontSize='md' me='26px' mb='40px'>
-				Here you can find more details about your projects. Keep you user engaged by providing meaningful
+				Here you can find more details about your social media handles. Keep you user engaged by providing meaningful
 				information.
 			</Text>
 			<Project
@@ -29,7 +29,7 @@ export default function Projects(props: { [x: string]: any }) {
 				image={Project1}
 				ranking='1'
 				link='#'
-				title='Technology behind the Blockchain'
+				title='Twitter Profile'
 			/>
 			<Project
 				boxShadow={cardShadow}
@@ -37,14 +37,14 @@ export default function Projects(props: { [x: string]: any }) {
 				image={Project2}
 				ranking='2'
 				link='#'
-				title='Greatest way to a good Economy'
+				title='Instagram Account'
 			/>
 			<Project
 				boxShadow={cardShadow}
 				image={Project3}
 				ranking='3'
 				link='#'
-				title='Most essential tips for Burnout'
+				title='LinkedIn Page'
 			/>
 		</Card>
 	);

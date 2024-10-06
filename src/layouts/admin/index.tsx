@@ -20,7 +20,7 @@ export default function Dashboard(props: { [x: string]: any }) {
     return window.location.pathname !== '/admin/full-screen-maps';
   };
   const getActiveRoute = (routes: RoutesType[]): string => {
-    let activeRoute = 'Default Brand Text';
+    let activeRoute = '2024-07-23 Untitled';
     for (let i = 0; i < routes.length; i++) {
       if (
         window.location.href.indexOf(routes[i].layout + routes[i].path) !== -1
@@ -92,7 +92,7 @@ export default function Dashboard(props: { [x: string]: any }) {
             <Box>
               <Navbar
                 onOpen={onOpen}
-                logoText={'Horizon UI Dashboard PRO'}
+                logoText={'Neural Nudge'}
                 brandText={getActiveRoute(routes)}
                 secondary={getActiveNavbar(routes)}
                 message={getActiveNavbarText(routes)}
